@@ -14,6 +14,7 @@
 		5F3FC2DD1E1168A300B9DA6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3FC2DB1E1168A300B9DA6A /* LaunchScreen.storyboard */; };
 		5F3FC2E81E1168A300B9DA6A /* CoreGraphicDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FC2E71E1168A300B9DA6A /* CoreGraphicDemoTests.swift */; };
 		5F3FC2F31E1168A300B9DA6A /* CoreGraphicDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FC2F21E1168A300B9DA6A /* CoreGraphicDemoUITests.swift */; };
+		5F3FC3011E116A4F00B9DA6A /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FC3001E116A4F00B9DA6A /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5F3FC2EE1E1168A300B9DA6A /* CoreGraphicDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreGraphicDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3FC2F21E1168A300B9DA6A /* CoreGraphicDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicDemoUITests.swift; sourceTree = "<group>"; };
 		5F3FC2F41E1168A300B9DA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3FC3001E116A4F00B9DA6A /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundButton.swift; path = View/RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				5F3FC2D21E1168A300B9DA6A /* AppDelegate.swift */,
+				5F3FC3001E116A4F00B9DA6A /* RoundButton.swift */,
 				5F3FC2D41E1168A300B9DA6A /* ViewController.swift */,
 				5F3FC2D61E1168A300B9DA6A /* Main.storyboard */,
 				5F3FC2D91E1168A300B9DA6A /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F3FC3011E116A4F00B9DA6A /* RoundButton.swift in Sources */,
 				5F3FC2D51E1168A300B9DA6A /* ViewController.swift in Sources */,
 				5F3FC2D31E1168A300B9DA6A /* AppDelegate.swift in Sources */,
 			);
