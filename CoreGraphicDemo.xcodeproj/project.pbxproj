@@ -15,6 +15,8 @@
 		5F3FC2E81E1168A300B9DA6A /* CoreGraphicDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FC2E71E1168A300B9DA6A /* CoreGraphicDemoTests.swift */; };
 		5F3FC2F31E1168A300B9DA6A /* CoreGraphicDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FC2F21E1168A300B9DA6A /* CoreGraphicDemoUITests.swift */; };
 		5F3FC3011E116A4F00B9DA6A /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FC3001E116A4F00B9DA6A /* RoundButton.swift */; };
+		A180911F1E11F5D600830911 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A180911E1E11F5D600830911 /* CounterView.swift */; };
+		A1B3EE5A1E11FEC50084745D /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B3EE591E11FEC50084745D /* GraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		5F3FC2F21E1168A300B9DA6A /* CoreGraphicDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicDemoUITests.swift; sourceTree = "<group>"; };
 		5F3FC2F41E1168A300B9DA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F3FC3001E116A4F00B9DA6A /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundButton.swift; path = View/RoundButton.swift; sourceTree = "<group>"; };
+		A180911E1E11F5D600830911 /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CounterView.swift; path = View/CounterView.swift; sourceTree = "<group>"; };
+		A1B3EE591E11FEC50084745D /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GraphView.swift; path = View/GraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				5F3FC2D21E1168A300B9DA6A /* AppDelegate.swift */,
-				5F3FC3001E116A4F00B9DA6A /* RoundButton.swift */,
+				A18091201E11F5E100830911 /* View */,
 				5F3FC2D41E1168A300B9DA6A /* ViewController.swift */,
 				5F3FC2D61E1168A300B9DA6A /* Main.storyboard */,
 				5F3FC2D91E1168A300B9DA6A /* Assets.xcassets */,
@@ -126,6 +130,16 @@
 				5F3FC2F41E1168A300B9DA6A /* Info.plist */,
 			);
 			path = CoreGraphicDemoUITests;
+			sourceTree = "<group>";
+		};
+		A18091201E11F5E100830911 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F3FC3001E116A4F00B9DA6A /* RoundButton.swift */,
+				A180911E1E11F5D600830911 /* CounterView.swift */,
+				A1B3EE591E11FEC50084745D /* GraphView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B3EE5A1E11FEC50084745D /* GraphView.swift in Sources */,
 				5F3FC3011E116A4F00B9DA6A /* RoundButton.swift in Sources */,
 				5F3FC2D51E1168A300B9DA6A /* ViewController.swift in Sources */,
 				5F3FC2D31E1168A300B9DA6A /* AppDelegate.swift in Sources */,
+				A180911F1E11F5D600830911 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +525,7 @@
 				5F3FC2F91E1168A300B9DA6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F3FC2FA1E1168A300B9DA6A /* Build configuration list for PBXNativeTarget "CoreGraphicDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +534,7 @@
 				5F3FC2FC1E1168A300B9DA6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F3FC2FD1E1168A300B9DA6A /* Build configuration list for PBXNativeTarget "CoreGraphicDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +543,7 @@
 				5F3FC2FF1E1168A300B9DA6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
